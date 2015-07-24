@@ -32,3 +32,7 @@ Docker container to get tweets from certain area using the Streaming API.
 ### Stop:
 
 * `docker stop twitter-stream`
+
+### Credits:
+
+* Tweepy: [https://github.com/tweepy/tweepy](https://github.com/tweepy/tweepy)
