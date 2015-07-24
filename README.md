@@ -27,6 +27,7 @@ Docker container to get tweets from certain area using the Streaming API.
 * ```docker run -d --name twitter-stream -v `pwd`/files:/files twitter-stream /files/run.sh```
 * Collection will run in background
 * Tweets (full JSON) will be added to the `files/tweets.json` file
+* **Note**: Twitter only provides a small percentage of the tweets via the Streaming API. Look for commercial solutions (e.g. Twitter's [Gnip](https://gnip.com/sources/twitter/)) if that's not enough for your project
 
 ### Stop:
 
